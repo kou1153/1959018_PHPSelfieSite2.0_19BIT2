@@ -1,0 +1,149 @@
+* {font-family: 'Source Sans Pro', sans-serif; }
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background: url('images/background-aboutme.jpg');
+  background-position: 0 1000px;
+}
+
+a.activehehe {
+  color: red;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+  align-items: center;
+}
+
+h1{
+  color: #FFBF00;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+}
+
+h2{
+  color: white;
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 400;
+  padding-bottom: 3%;
+}
+
+p{
+  font-size: 2rem;
+  color: #fff;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+}
+
+.btn{
+  display: inline-block;
+  padding: 2.7rem 7.5rem;
+  background: #f6f6f6;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #398f51;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  opacity: 50%;
+  transition: opacity 300ms;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ .media .image{
+    padding: 5%;
+}
+
+.media .video{
+    padding: 5%;
+}
+
+.media p{
+  font-size: 5rem;
+  color: #fff;
+  line-height: 5rem;
+}
+
+.skillthatidonthave h2{
+  color: yellow;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+}
+
+.skillthatidonthave ul{
+  color: white;
+  align-items: center;
+}
+/*
+.skillthatidonthave{
+  align-items: center;
+} */
+
+ul li{
+  font-family: 'Merriweather', cursive;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: color 300ms;
+  display: flex;
+  align-self: center;
+}
+
+a:hover{
+  color: #FFBF00;
+}
+
+@media screen and (max-aspect-ratio: 9/16)
+{
+  .nav ul li{
+    padding: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}

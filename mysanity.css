@@ -1,0 +1,18 @@
+body {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+}
+
+p{
+  font-size: 10vh;
+}
